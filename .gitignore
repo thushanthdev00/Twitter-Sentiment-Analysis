@@ -1,0 +1,28 @@
+
+# Large datasets
+training.1600000.processed.noemoticon.csv
+sentiment140.zip
+
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data & trained model artifacts (large / regenerable)
+data/*.csv
+models/*.sav
+
+# NLTK downloaded data
+nltk_data/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+.env
+.vscode
