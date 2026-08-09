@@ -15,7 +15,7 @@ import pandas as pd
 import streamlit as st
 
 
-BASE_DIR = Path(r"T:\Twitter sentiment analysis\twitter-sentiment-analysis")
+BASE_DIR = Path(__file__).resolve().parent
 MODELS_DIR = BASE_DIR / "models"
 
 st.set_page_config(page_title="Twitter Sentiment Analysis", page_icon="", layout="centered")
