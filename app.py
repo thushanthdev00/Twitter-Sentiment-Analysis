@@ -90,7 +90,7 @@ with tab1:
     text_input = st.text_area(
         "Enter a tweet or short text",
         placeholder="e.g. I absolutely loved the new update, works great!",
-        height=200,
+        height=20000,
     )
 
     if st.button("Predict Sentiment", type="primary"):
